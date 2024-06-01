@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla&family=Rubik:wght@600;800&display=swap');
+*{
+    margin:0;
+    padding:0;
+}
+
+nav{
+    font-family: 'Karla', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    height: 65px;
+    background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    margin-left: -25px;
+}
+
+nav .nav-img{
+    height: 150px;
+    width: 120px;
+    margin-top: 10px;
+}
+
+nav .nav-title{
+    font-size: 25px;
+    margin-left: -15px;
+}
+
+nav .nav-project{
+    padding: 30px;
+}
+
+.meme-container{
+    margin-top: -15px;
+}
+
+.input-sec{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 70px;
+}
+
+input{
+    width: 580px;
+    height: 60px;
+    font-size: 22px;
+    border: 1px solid #d5d4d8;
+    border-radius: 7px;
+    margin: 20px -85px;
+    padding: 0px 10px;
+    text-indent: 5px;
+}
+
+.btn-sec{
+    margin: 10px 140px;
+}
+
+.btn{
+    width: 1260px;
+    height: 60px;
+    border-radius: 7px;
+    outline: none;
+    cursor: pointer;
+    background: linear-gradient(90deg, #672280 1.18%, #a626d3 100%);
+    color: white;
+    font-family: 'Karla', sans-serif;
+    font-size: 22px;
+    border: none;
+}
+
+.btn:hover{
+    background: #672280;
+}
+
+.meme-image{
+    width:100px;
+    height: 100px;
+}
+
+.meme-image{
+   max-width: 100%;
+}
